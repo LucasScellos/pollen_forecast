@@ -82,9 +82,9 @@ Data have a 11km precision.
 
 
 # 💡 About This Project
-This is a personal project by Lucas Scellos, built in my free time.
+This is a personal project by Lucas Scellos
 
-🔗 Explore my other projects & contact me: lucasscellos.github.io
+🔗 Explore my other projects & contact me: [lucasscellos.github.io](lucasscellos.github.io)
 
 ## 💡 **Why I Created This Project**  
 As someone who suffers from pollen allergies, I found that existing solutions, such as [pollens.fr](https://www.pollens.fr/), lacked **real-time forecasting** and were limited to static reports. My goal was to build a **more accurate, user-friendly, and interactive forecasting tool** that enables allergy sufferers to plan their days better. This project is a step toward that vision, leveraging Copernicus open data to provide real-time insights.
