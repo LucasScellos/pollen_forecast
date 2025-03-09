@@ -63,6 +63,8 @@ pollen_allergy_forecast/
 All forecasts are powered by Copernicus Atmosphere Monitoring Service (CAMS), ensuring accuracy and reliability.  
 Learn more: https://atmosphere.copernicus.eu/
 
+Data have a 11km precision.
+
 # 📈 Features
 - 🎯 Interactive Pollen Forecasts
 - 🌍 Location-based forecasts across France 
@@ -83,5 +85,11 @@ Learn more: https://atmosphere.copernicus.eu/
 This is a personal project by Lucas Scellos, built in my free time.
 
 🔗 Explore my other projects & contact me: lucasscellos.github.io
+
+## 💡 **Why I Created This Project**  
+As someone who suffers from pollen allergies, I found that existing solutions, such as [pollens.fr](https://www.pollens.fr/), lacked **real-time forecasting** and were limited to static reports. My goal was to build a **more accurate, user-friendly, and interactive forecasting tool** that enables allergy sufferers to plan their days better. This project is a step toward that vision, leveraging Copernicus open data to provide real-time insights.
+
+For official health recommendations on pollen allergies, visit the [French Government's public service site](https://www.service-public.fr/particuliers/actualites/A14071).
+
 
 ### 📌 Star this repo ⭐ if you find it useful! 🚀

@@ -24,7 +24,7 @@ logging.basicConfig(
 def get_coordinates(address: str):
     """Return latitude, longitude, and formatted city name of a given address."""
     geolocator = Nominatim(user_agent="geo_locator")
-    location = geolocator.geocode(address)
+    location = geolocator.geocode(address +" ,France")
 
     if location is None:
         raise ValueError(f"Location not found for address: {address}")

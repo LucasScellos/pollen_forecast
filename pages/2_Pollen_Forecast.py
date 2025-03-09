@@ -22,11 +22,11 @@ def ensure_dataset():
     """Check if dataset exists, if not, download it."""
     if not os.path.exists(DATASET_PATH):
         logging.warning("Dataset file not found! Downloading new data...")
-        st.warning("⚠️ Data file is missing! Downloading new data...")
-        with st.status("Downloading new data, please wait...", expanded=True) as status:
+        #st.warning("⚠️ Data file is missing! Downloading new data...")
+        with st.status("Downloading new forecast from Copernicus, please wait...", expanded=True) as status:
             dd.retrieve_data()
             status.update(label="✅ Download complete!", state="complete", expanded=False)
-        st.success("New data has been successfully downloaded. Please refresh the page.")
+        #st.success("New data has been successfully downloaded. Please refresh the page.")
 
 
 def main():
@@ -34,7 +34,7 @@ def main():
     ensure_dataset()
 
     # User input: Address
-    address = st.text_input("📍 Enter your location in France:", value="Paris 10, France")
+    address = st.text_input("📍 Enter your location in France:", value="Paris Rue de Rocroy")
 
     if address:
         try:
